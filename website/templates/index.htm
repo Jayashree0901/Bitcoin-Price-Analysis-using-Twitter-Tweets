@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Background image with text</title>
+    <link rel="stylesheet" href="{{url_for('static',filename='stylee.css')}}">
+</head>
+<body>
+    <div id="content">
+        <h1>Our Research Result for Existing Dataset</h1>
+    </div>
+<div id="res">
+<img src="{{url_for('static',filename='e1.jpg')}}" alt="" height="300" width="350" border="3px solid black"/>
+ <p><b>Subjectivity and Polarity of tweets</b></p>
+</div>
+<div id="rres">
+<img src="{{url_for('static',filename='e2.jpg')}}" alt="" height="300" width="350" border="3px solid black"/>
+ <p><b>Time vs Polarity</b></p>
+</div>
+<div id="lres">
+<img src="{{url_for('static',filename='e3.jpg')}}" alt="" height="300" width="350" border="3px solid black"/>
+ <p><b>Time vs PriceUsd</b></p>
+</div>
+<table id="score">
+  <tr>
+    <th>Sr No.</th>
+    <th>ML Algorithms</th>
+    <th>R2 Value</th>
+  </tr>
+  <tr>
+    <td>1.</td>
+    <td>Multiple Regression</td>
+    <td>-0.09</td>
+  </tr>
+  <tr>
+    <td>2.</td>
+    <td>Polynomial Regression</td>
+    <td>0.35</td>
+  </tr>
+  <tr>
+    <td>3.</td>
+    <td>SVR</td>
+    <td>-0.018</td>
+  </tr>
+  <tr>
+    <td>4.</td>
+    <td>Decision Tree</td>
+    <td>-1.12</td>
+  </tr>
+  <tr>
+    <td>5.</td>
+    <td>Random Forest</td>
+    <td>-0.03</td>
+  </tr>
+</table>
+<div id="empty">
+<p><br><b>Evaluation Table for Existing Dataset</b><br></p>
+</div>
+</body>
+</html>

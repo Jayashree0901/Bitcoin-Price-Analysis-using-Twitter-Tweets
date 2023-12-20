@@ -1,0 +1,83 @@
+body{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:	#FFCCFF;
+    background-position: center; 
+background-size:fixed;
+overflow-x:hidden;
+}
+
+#content{
+  display: flex;
+   justify-content: center;
+    height: 12vh;
+    width: 70%;
+    background-color:#04AA6D;
+    font-size: 20px;
+    color: white;
+    text-transform: uppercase;
+position: absolute;
+  top: 20px;
+  border: 3px solid white;
+}
+#res{
+  text-align: center;
+top:40px;
+    width: [width of img];
+     font-size: 20px;
+margin-left:100px;
+}
+
+#rres{
+margin-right:800px;
+width: 60%;
+position: absolute;
+bottom:0px;
+ font-size: 20px;
+ text-align: center;
+
+}
+
+#lres{
+margin-left:1000px;
+width: 60%;
+position: absolute;
+bottom:0px;
+ font-size: 20px;
+ text-align: center;
+}
+
+#score {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 60%;
+position: absolute;
+bottom:-300px;
+}
+
+#score td, #score th {
+  border: 1px solid #ddd;
+  padding: 8px;
+ height: 10px; 
+}
+
+#score tr:nth-child(even){background-color: #f2f2f2;}
+#score tr:nth-child(odd){background-color: #f2f2f2;}
+
+#score tr:hover {background-color:#ddd;}
+
+#score th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #04AA6D;
+  color: white;
+}
+#empty{
+bottom: -350px;
+position:absolute;
+font-size: 20px;
+ text-align: center;
+}
